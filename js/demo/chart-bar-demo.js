@@ -45,14 +45,14 @@ var myBarChart = new Chart(ctx, {
     {
       label: "Expected Sales",
       backgroundColor: "#7E9181",
-      hoverBackgroundColor: "#2e59d9",
+      hoverBackgroundColor: "#7E9181",
       borderColor: "#7E9181",
       data: data1,
     },
     {
       label: "Actual Sales",
       backgroundColor: "#9BC1BC",
-      hoverBackgroundColor: "#2e59d9",
+      hoverBackgroundColor: "#9BC1BC",
       borderColor: "#9BC1BC",
       data: data2,
     },
