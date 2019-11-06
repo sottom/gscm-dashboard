@@ -102,12 +102,16 @@ var myBarChart = new Chart(production, {
     datasets: [
         {
             label: "Production",
-            backgroundColor: "blue",
+            backgroundColor: "#7E9181",
+            hoverBackgroundColor: "#7E9181",
+            borderColor: "#7E9181",
             data: data1
         },
         {
             label: "Capacity",
-            backgroundColor: "orange",
+            backgroundColor: "#9BC1BC",
+            hoverBackgroundColor: "#9BC1BC",
+            borderColor: "#9BC1BC",
             data: data2
         },
 
@@ -118,5 +122,3 @@ var myBarChart = new Chart(production, {
 function get_random(x,y){
   return Math.floor(Math.random() * ((y-x)+1) + x);
 }
-
-data1 = Array(12).fill(1).map(x => get_random(40,60))
