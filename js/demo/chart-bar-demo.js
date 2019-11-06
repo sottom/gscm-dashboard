@@ -109,3 +109,63 @@ var myBarChart = new Chart(ctx, {
     },
   }
 });
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+// Mitchell's Chart
+/////////////////////////////////////////////////////////////////////////////////
+
+
+var production = document.getElementById("production-chart");
+var data = {
+    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    datasets: [
+        {
+            label: "Production",
+            backgroundColor: "blue",
+            data: [1,2,3,4,5,6,7,8,9,10,11,12]
+        },
+        {
+            label: "Capacity",
+            backgroundColor: "orange",
+            data: [1,2,3,4,5,6,7,8,9,10,11,12]
+        },
+
+    ]
+};
+
+var myBarChart = new Chart(production, {
+    type: 'bar',
+    data: data,
+    options: {
+        barValueSpacing: 20,
+        scales: {
+            yAxes: [{
+                ticks: {
+                    min: 0,
+                }
+            }]
+        }
+    }
+});
+
+var myBarChart = new Chart(production, {
+  type: 'bar',
+  data: {
+    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    datasets: [
+        {
+            label: "Production",
+            backgroundColor: "blue",
+            data: [1,2,3,4,5,6,7,8,9,10,11,12]
+        },
+        {
+            label: "Capacity",
+            backgroundColor: "orange",
+            data: [1,2,3,4,5,6,7,8,9,10,11,12]
+        },
+
+    ]
+  }
+})
