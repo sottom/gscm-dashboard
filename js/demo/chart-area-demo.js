@@ -121,6 +121,11 @@ var myLineChart = new Chart(ctx, {
 // Mitchell's Chart
 /////////////////////////////////////////////////////////////////////////////////
 
+function get_random(x,y){
+  return Math.floor(Math.random() * ((y-x)+1) + x);
+}
+
+data1 = Array(12).fill(1).map(x => get_random(40,60))
 
 var demand = document.getElementById("demand-chart");
 var myLineChart = new Chart(demand, {

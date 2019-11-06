@@ -118,38 +118,10 @@ var myBarChart = new Chart(ctx, {
 
 
 var production = document.getElementById("production-chart");
-var data = {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-    datasets: [
-        {
-            label: "Production",
-            backgroundColor: "blue",
-            data: [1,2,3,4,5,6,7,8,9,10,11,12]
-        },
-        {
-            label: "Capacity",
-            backgroundColor: "orange",
-            data: [1,2,3,4,5,6,7,8,9,10,11,12]
-        },
 
-    ]
-};
-
-var myBarChart = new Chart(production, {
-    type: 'bar',
-    data: data,
-    options: {
-        barValueSpacing: 20,
-        scales: {
-            yAxes: [{
-                ticks: {
-                    min: 0,
-                }
-            }]
-        }
-    }
-});
-
+data1 = Array(12).fill(1).map(x => get_random(40,60))
+data2 = Array(12).fill(1).map(x => get_random(40,60))
+console.log(data1)
 var myBarChart = new Chart(production, {
   type: 'bar',
   data: {
@@ -158,14 +130,20 @@ var myBarChart = new Chart(production, {
         {
             label: "Production",
             backgroundColor: "blue",
-            data: [1,2,3,4,5,6,7,8,9,10,11,12]
+            data: data1
         },
         {
             label: "Capacity",
             backgroundColor: "orange",
-            data: [1,2,3,4,5,6,7,8,9,10,11,12]
+            data: data2
         },
 
     ]
   }
 })
+
+function get_random(x,y){
+  return Math.floor(Math.random() * ((y-x)+1) + x);
+}
+
+data1 = Array(12).fill(1).map(x => get_random(40,60))
