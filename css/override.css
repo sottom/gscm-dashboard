@@ -1,0 +1,25 @@
+#navBarColor{
+    background-color: #9BC1BC;
+    background-image: linear-gradient(180deg,#9BC1BC 10%,#9BC1BC 100%);
+}
+
+#headingText{
+    color: #FFFFFF;
+}
+
+#iconColor{
+    color: #FFFFFF;
+}
+
+#sideBarToggle{
+    background-color: #7E9181;
+}
+
+/* Color Scheme
+Black: #070707
+White: #FFFFFF
+Grey: #7E9181
+Blue: #9BC1BC
+Dark Green Blue: #023C40
+
+*/
