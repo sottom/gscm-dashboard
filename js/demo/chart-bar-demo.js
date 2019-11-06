@@ -89,7 +89,7 @@ var myBarChart = new Chart(ctx, {
     scales: {
       yAxes: [{
         ticks: {
-          max: 70,
+          max: 90,
           min: 40,
           stepSize: 5
       }
