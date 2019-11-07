@@ -1,6 +1,6 @@
 #navBarColor{
-    background-color: #9BC1BC;
-    background-image: linear-gradient(180deg,#9BC1BC 10%,#9BC1BC 100%);
+    background-color: #6DAEDB;
+    background-image: linear-gradient(180deg,#6DAEDB 10%,#6DAEDB 100%);
 }
 
 #headingText{
@@ -16,14 +16,14 @@
 }
 
 #blueText{
-    color:#023C40 !important;
+    color:#03254E !important;
 }
 
 /* Color Scheme
 Black: #070707
 White: #FFFFFF
 Grey: #7E9181
-Blue: #9BC1BC
+Blue: #03254E
 Dark Green Blue: #023C40
 
 */
