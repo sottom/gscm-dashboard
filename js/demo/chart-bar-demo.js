@@ -114,16 +114,16 @@ var myBarChart = new Chart(production, {
     datasets: [
         {
             label: "Production",
-            backgroundColor: "#7E9181",
-            hoverBackgroundColor: "#7E9181",
-            borderColor: "#7E9181",
+            backgroundColor: "#6DAEDB",
+            hoverBackgroundColor: "#6DAEDB",
+            borderColor: "#6DAEDB",
             data: data1
         },
         {
             label: "Capacity",
-            backgroundColor: "#9BC1BC",
-            hoverBackgroundColor: "#9BC1BC",
-            borderColor: "#9BC1BC",
+            backgroundColor: "#0E79B2",
+            hoverBackgroundColor: "#0E79B2",
+            borderColor: "#0E79B2",
             data: data2
         },
 
