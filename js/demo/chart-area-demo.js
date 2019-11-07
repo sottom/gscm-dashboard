@@ -48,7 +48,7 @@ var myLineChart = new Chart(ctx, {
       pointBorderWidth: 2,
       data: [60, 20, 60, 20, 60, 20, 60, 20, 60, 20, 60, 20],
     },{
-      label: "Stock Units of iPhones in Millions",
+      label: "Buffer Stock in Millions",
       lineTension: 0.3,
       backgroundColor: "rgba(78, 115, 223, 0.05)",
       borderColor: "rgba(14, 121, 178, 1)",
