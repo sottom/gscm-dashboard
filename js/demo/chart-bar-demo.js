@@ -83,9 +83,6 @@ var myBarChart = new Chart(ctx, {
       mode: 'index',
       caretPadding: 10,
     },
-    legend: {
-      display: false
-    },
     scales: {
       yAxes: [{
         ticks: {
@@ -130,7 +127,10 @@ var myBarChart = new Chart(production, {
             data: data2
         },
 
-    ]
+    ],
+  },
+  options: {
+    maintainAspectRatio: false,
   }
 })
 
