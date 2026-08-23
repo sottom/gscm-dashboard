@@ -1,3 +1,6 @@
+<!-- PURPOSE_SUMMARY -->
+**Purpose:** Admin dashboard UI for a Foxconn / GSCM project, built on a customized Start Bootstrap SB Admin 2 theme with charts.
+
 # [Start Bootstrap - SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/)
 
 [SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
